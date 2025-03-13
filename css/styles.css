@@ -22,7 +22,7 @@ ul{
     text-transform: uppercase;
     color: #4d5ae5;}
 
-.logo-part-h {
+.header-logo .logo-part {
     color: #2e2f42;
 }
 
@@ -65,7 +65,7 @@ ul{
 }
 .page-title{
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
@@ -73,7 +73,6 @@ ul{
 }
 
 .page-btn{
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
     font-weight: 500;
     font-size: 16px;
@@ -113,11 +112,20 @@ ul{
     background-color: #f4f4fd;
 }
 
-.section-title {}
+.section-title {
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-align: center;
+        text-transform: capitalize;
+        color: #2e2f42;
+}
 
 .team-list {}
 
-.team-item {}
+.team-item {
+    background-color: #fff;
+}
 
 
 /* -----------------PORTFOLIO------------------- */
@@ -135,7 +143,7 @@ ul{
     background-color: #2e2f42;
 }
 
-.logo-part-f{
+.footer-logo .logo-part{
     color: #f4f4fd;
 }
 
